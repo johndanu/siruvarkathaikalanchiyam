@@ -1,0 +1,119 @@
+body{
+    background:fixed;
+    background-image: url(../img/bgImg.jpg);
+    background-size: auto;
+    
+}   
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav{
+    background-image: url("../img/nav-img1.jpg");
+}
+.help{
+    color: white;
+    border: white 1px solid;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.349);
+    border-radius: 1rem;
+}
+.help:hover{
+    color: brown;
+    background-color: rgba(255, 255, 255, 0.616);
+}
+.head{
+    /* background-color: #2B2B52; */
+    color: #fff;
+    background: none;
+}
+.btn-color1{
+    background-color: #F6454F;
+}
+.btn-color2{
+    background-color: #019031;
+}
+.btn-color3{
+    background-color: #2B2B52;
+}
+.btn-card{
+     border-radius: 50%;
+     background-color: #E71C23;
+     border: none;
+     color: white;
+     padding: 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+}
+.readTxt{
+    padding: 0.5rem;
+    color: rgb(27, 41, 48);
+    /* background-color: rgba(217, 230, 247, 0.8); */
+    border: none;
+    border-radius: 1.1rem;
+    font-weight: 600;
+}
+
+
+/* Book page css */
+
+.pageImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 0.8rem ;
+    z-index: 1;
+}
+
+.pageHead{
+    letter-spacing: 0.2rem;
+    font-family: 'Aclonica';
+    line-height: normal;
+    transition: transform 1s
+
+}
+.pagePara{
+    letter-spacing: 0.2rem;
+    font-family: 'Aladin';
+    line-height: 80%;
+
+}
+
+.pageHead:hover{
+    transform: scale(1.1);
+}
+
+.pageDiv{
+    border-radius: 1rem;    
+    /* background-image: linear-gradient(to right, rgb(11, 86, 116),rgb(23, 109, 143),rgb(47, 154, 173)); */
+    /* background-color: rgb(3, 28, 39); */
+    background-color: #0a4261;
+    color: white;
+    width: 89%;
+    margin: 0 auto;
+}
+.pageNextBtn{
+    z-index: 1;
+    margin-top: -5rem;
+    width: 10rem;
+    position: relative;
+    transition: transform .2s
+}
+.pageNextBtn:hover{
+    -ms-transform-origin-x: 2rem;
+    cursor: pointer;
+    border: 3px  white;
+    transform: scale(1.1);
+}
+
+.imgPNG {
+    -webkit-filter: drop-shadow(3px 3px 0 rgb(2, 1, 26))
+                    drop-shadow(-1px -1px 0 rgb(2, 1, 26));
+    filter: drop-shadow(3px 3px 0 rgb(2, 1, 26)) 
+            drop-shadow(-1px -1px 0 rgb(2, 1, 26));
+  }
